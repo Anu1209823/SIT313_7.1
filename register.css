@@ -1,0 +1,65 @@
+/* register.css */
+.register {
+  /* Other styles for .register go here */
+
+  /* Add spacing (gap) between the heading and form elements */
+  margin: 20px; /* Adjust the value to control the spacing */
+}
+
+.register form {
+  /* Other styles for .register form go here */
+}
+
+.register h2 {
+  /* Other styles for .register h2 go here */
+  font-size: 20px;
+  font-weight: bold;
+  color: #232826;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin at the bottom of the heading */
+}
+
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+  }
+  .label-bold {
+    font-weight: bold;
+  }
+  .register form {
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .register form h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #232826;
+    text-align: center;
+  }
+  
+  .register form button {
+    height: 50px;
+    width: 100%;
+    background-color: #0171d3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+    cursor: pointer;
+  }
+  
+  .register form button:hover {
+    background-color: #00527a;
+  }
+  

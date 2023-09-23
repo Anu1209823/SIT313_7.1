@@ -1,0 +1,72 @@
+/* login.css */
+
+/* Base styles for the login container */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+  margin: 20px;
+}
+
+/* Styles for the login form */
+.login form {
+  background-color: white;
+  max-width: 400px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the heading inside the form */
+.login h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #232826;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the input containers */
+.input-container {
+  margin-bottom: 10px;
+}
+
+/* Styles for the login button */
+.login button {
+  height: 50px;
+  width: 100%;
+  background-color: #0171d3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 15px 0 10px 0;
+  cursor: pointer;
+}
+
+/* Hover styles for the login button */
+.login button:hover {
+  background-color: #00527a;
+}
+
+/* Styles for the link at the bottom */
+.formLink {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Styles for labels */
+.login form label {
+  font-weight: bold;
+}
+
+
+
+
